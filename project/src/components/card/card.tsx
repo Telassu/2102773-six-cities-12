@@ -1,6 +1,6 @@
 function Card(): JSX.Element {
   return (
-    <article className="cities__card place-card">
+    <>
       <div className="place-card__mark">
         <span>Premium</span>
       </div>
@@ -33,8 +33,7 @@ function Card(): JSX.Element {
         </h2>
         <p className="place-card__type">Apartment</p>
       </div>
-    </article>
-
+    </>
   );
 }
 
